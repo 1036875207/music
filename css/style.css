@@ -1,0 +1,128 @@
+/****默认样式清除****/
+body, ul, li, h1, h2, h3, h4, h5, h6, p, form, dl, dt, dd { 
+	margin: 0px;
+	padding: 0px; 
+	font-size: 12px; 
+	font-weight: normal; }
+ul { list-style: none; }
+img { border-style: none; }
+body{
+	font-family: Arial, Helvetica, sans-serif;
+}
+/****导航栏****/
+.m-top{
+	height: 70px;
+	width: 100%;
+}
+.m-top-parent{
+	background-color:#242424; 
+	width: 100%;
+	height: 100%;
+}
+.m-top-child{
+	background-color: #C20C0C;
+	width: 100%;
+	height: 34px;
+}
+.m-top-parent-container{
+	margin: 0 auto;
+	width: 1100px;
+}
+.logo{
+	float: left;
+	width: 176px;
+	height: 69px;
+	background: url('http://s2.music.126.net/style/web2/img/frame/topbar.png?e0b2c0a0ea81b800e3af00f176d0f517') no-repeat;
+	background-position:0 0;
+}
+.m-top-parent ul{
+	float: left;
+}
+.m-top-parent ul :after{
+	clear: both;
+}
+.m-top-parent ul li{
+	float: left;
+	height: 70px;
+}
+.m-top-parent ul li a{
+	display:block;
+	line-height: 70px;
+	height: 70px;
+	padding: 0 19px;
+}
+.m-top-parent em{
+	display:block;
+	font-style:normal;
+	color: #ccc;
+	font-size: 14px;
+	height: 70px;
+	line-height: 70px;
+}
+.m-top-parent sub{
+	width: 12px; 
+	display: block;
+	height: 7px;
+	margin: -6px auto 0px auto; 
+}
+.child-container{
+	margin: 0 auto;
+	height: 34px;
+	width: 1100px;
+}
+.child-container ul{
+	height: 34px;
+	margin-left: 180px;
+}
+.child-container li{
+	float: left;
+
+}
+.child-container a{
+	display: block;
+	margin: 7px 17px 0 17px;
+}
+.child-container em{
+	display: block;
+	height: 20px;
+	line-height: 20px;
+	color: white;
+	font-style:normal;
+	padding: 0 13px;
+	font-size: 12px;
+}
+.hot{
+	position: relative;
+	display: block;
+	height: 19px;
+	width: 28px;
+	background: url('http://s2.music.126.net/style/web2/img/frame/topbar.png?e0b2c0a0ea81b800e3af00f176d0f517') no-repeat;
+	background-position: -190px 0;
+	top:-51px;
+	right: -100px;
+}
+.choose em{
+	background: #9B0909;
+	border-radius: 20px;
+}
+a:link{
+	color: white;
+	font-style: normal;
+	text-decoration: none;
+	list-style: none;
+}
+a :active{
+	color: white;
+}
+.active em{
+	color: white;
+}
+
+.active a{
+	background-color: #000;
+}
+.active sub{
+	background: url('http://s2.music.126.net/style/web2/img/frame/topbar.png?e0b2c0a0ea81b800e3af00f176d0f517') no-repeat 0 9999px;
+	background-position: -105px -70px;
+	background-size:  120px auto;
+}
