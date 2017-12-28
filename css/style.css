@@ -91,6 +91,9 @@ body{
 	padding: 0 13px;
 	font-size: 12px;
 }
+.m-top-child{
+	height: 34px;
+}
 .hot{
 	position: relative;
 	display: block;
@@ -125,4 +128,41 @@ a :active{
 	background: url('http://s2.music.126.net/style/web2/img/frame/topbar.png?e0b2c0a0ea81b800e3af00f176d0f517') no-repeat 0 9999px;
 	background-position: -105px -70px;
 	background-size:  120px auto;
+}
+
+/***播放器***/
+.play{
+	position: fixed;
+	bottom: 0px;
+	background: #333;
+	opacity: 0.9;
+	height: 50px;
+	width: 100%;
+}
+.play-container{
+	margin: 0 auto;
+	width: 980px;
+}
+.clock{
+	z-index: 10;
+	position: absolute;
+	height: 70px;
+	width: 52px;
+	right: 20px;
+	top:-20px;
+	
+}
+.clock a{
+	color: black;
+}
+
+
+.panel{
+
+	height: 1000px;
+	width: 980px;
+	background: #f2f2f2;
+	z-index: -10;
+	margin: 0 auto;
+	margin-top:34px;
 }
